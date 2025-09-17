@@ -1,0 +1,5 @@
+builderVersion: v25.8.1
+domain: eda.local
+name: hello-world
+registry: docker.io/advantal
+vendor: advantal
