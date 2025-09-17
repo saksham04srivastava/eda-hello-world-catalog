@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: App
+metadata:
+  name: hello-world
+  vendor: advantal
+  version: 0.1.0
+spec:
+  author: advantal
+  runtime: python3
+  entrypoint: app.handler
+  context: .
+  image: docker.io/saksham04srivastava/hello-world:0.1.0
+  appInfo:
+    title: "Hello World"
+    description: "Minimal Hello World demo app"
+    categories: [demo]
+    keywords: [hello, example]
